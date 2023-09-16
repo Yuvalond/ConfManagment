@@ -1,0 +1,4 @@
+cat file1.txt
+cat subfolder/file4.txt
+cd subfolder
+cat file4.txt

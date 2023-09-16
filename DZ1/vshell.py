@@ -87,7 +87,7 @@ def main():
             for command in commands:
                 output = execute_command(vshell, command.strip())
                 if output:
-                    print(output)
+                    print(f"    command: {command}{output}")
     else:
         # В противном случае запускаем интерактивный режим
         while True:
